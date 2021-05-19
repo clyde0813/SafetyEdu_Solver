@@ -46,7 +46,6 @@ while True:
             wait.until(EC.element_to_be_clickable((By.CLASS_NAME, "textBubble.view"))).click()
         wait.until(EC.element_to_be_clickable((By.CLASS_NAME, "ctrlBtn.volumeBtn.on"))).click()
     elif len(driver.find_elements_by_class_name("motion.quizStartBtn.view")) > 0:
-        wait.until(EC.element_to_be_clickable((By.CLASS_NAME, "ctrlBtn.volumeBtn.on"))).click()
         print("마지막 퀴즈")
         driver.find_element_by_class_name("motion.quizStartBtn.view").click()
         wait.until(EC.element_to_be_clickable((By.CLASS_NAME, "moveBtn.nextPageBtn"))).click()
