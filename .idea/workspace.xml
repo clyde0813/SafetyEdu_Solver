@@ -4,7 +4,6 @@
     <list default="true" id="da77638b-ccec-4a9b-b86a-235b4d70122f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SaftyEdu.py" beforeDir="false" afterPath="$PROJECT_DIR$/SaftyEdu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/es/chromedriver.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <workItem from="1621402194088" duration="4854000" />
       <workItem from="1621408060154" duration="9293000" />
       <workItem from="1621440799204" duration="11000" />
-      <workItem from="1631107437576" duration="1496000" />
+      <workItem from="1631107437576" duration="2268000" />
     </task>
     <servers />
   </component>
