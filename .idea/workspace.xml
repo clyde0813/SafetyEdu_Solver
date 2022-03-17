@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da77638b-ccec-4a9b-b86a-235b4d70122f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaftyEdu.py" beforeDir="false" afterPath="$PROJECT_DIR$/SaftyEdu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SafetyEdu.py" beforeDir="false" afterPath="$PROJECT_DIR$/SafetyEdu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SaftyEdu.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/SaftyEdu/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/SaftyEdu/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/SaftyEdu/PKG-00.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/SaftyEdu/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/SaftyEdu/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/SaftyEdu/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/SaftyEdu/SaftyEdu.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/SaftyEdu/Tree-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/SaftyEdu/Tree-01.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/SaftyEdu/Tree-02.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/SaftyEdu/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/SaftyEdu/warn-SaftyEdu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/SaftyEdu/xref-SaftyEdu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/SaftyEdu.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/es/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/안전교육이수 프로그램 - 크롬.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/chromedriver.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +31,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1sk2IFTdkk1rvEZiTyl97dcp2Bq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -24,22 +46,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
-    <configuration name="SaftyEdu" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="SafetyEdu" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="SafetyEdu_Macro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Clyde\anaconda3\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SaftyEdu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SafetyEdu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -61,6 +84,7 @@
       <workItem from="1621408060154" duration="9293000" />
       <workItem from="1621440799204" duration="11000" />
       <workItem from="1631107437576" duration="2268000" />
+      <workItem from="1647504441116" duration="304000" />
     </task>
     <servers />
   </component>
@@ -77,10 +101,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SaftyEdu$SaftyEdu.coverage" NAME="SaftyEdu Coverage Results" MODIFIED="1631108904489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SafetyEdu_Macro$SafetyEdu.coverage" NAME="SafetyEdu Coverage Results" MODIFIED="1647504572734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SaftyEdu$main.coverage" NAME="SaftyEdu Coverage Results" MODIFIED="1621417397184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SaftyEdu$SaftyEdu.coverage" NAME="SaftyEdu Coverage Results" MODIFIED="1631108904489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

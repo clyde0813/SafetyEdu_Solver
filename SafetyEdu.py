@@ -6,9 +6,11 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import WebDriverException, UnexpectedAlertPresentException, \
     ElementClickInterceptedException, NoAlertPresentException, ElementNotInteractableException, NoSuchElementException
-import os
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
-driver = webdriver.Chrome(os.getcwd() + "//es//chromedriver.exe")
+
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 url = "http://safetyedu.org/Edu/SafetyEduRoom"
 driver.get(url)
 wait = WebDriverWait(driver, 10)
